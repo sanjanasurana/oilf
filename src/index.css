@@ -1,0 +1,740 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+.react-flow__pane {
+  background-color: #c0c0c0;
+}
+.text-updater-node {
+  height: 30px;
+  width: 35px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 2px;
+  background: #e0e0e0;
+  border-radius:100px;
+}
+
+.text1{
+  font-size: 6px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2px;
+}
+.navbar{
+  background-color: #979494;
+  width: 1400px;
+  height: 100px;
+  top: 0%;
+  position: 'absolute';
+  border: 1px solid black;
+}
+
+.current-time{
+  font-size: 40px;
+  left: 15px;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+}
+
+.display-button{
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  width: 120px;
+  height: 35px;
+  background-color: #e0e0e0;
+  font-weight: bolder;
+}
+
+.logon-button{
+  position: absolute;
+  top: 55px;
+  left: 140px;
+  width: 120px;
+  height: 35px;
+  background-color: #e0e0e0;
+  font-weight: bolder;
+}
+.input-container {
+  width: 100%;
+  padding-top: 5px;
+}
+
+.custom-input {
+  width: 20px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+  outline: none;
+  font-size: 10px;
+  background-color: black;
+  color: yellow;
+  margin: auto;
+  display: block;
+}
+
+.custom-input::placeholder {
+  color: #999;
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.cn1{
+  width: 200px;
+  height: 75px;
+  background-color: #e0e0e0;
+  border: 1px solid black;
+}
+.strip-top {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  padding: 5px 5px;
+  background-color: #a09fa5;
+  height: 5px;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+}
+
+.number {
+  font-size: 9px;
+  font-weight: bold;
+  color: #0b0a0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.strip-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  padding: 5px 5px;
+  background-color: #a09fa5; 
+  height: 5px;
+  bottom: 1px;
+  left: 2px;
+  right: 2px;
+}
+.text2{
+  font-size: 10px;
+  color: black;
+  top: 32px;
+  left: 38px;
+  position: absolute;
+}
+
+.commontext1{
+  position: absolute;
+  font-size: small;
+  color: black;
+  left: 210px;
+  top: 10px;
+  font-weight: bold;
+}
+
+.commontext2{
+  position: absolute;
+  font-size: small;
+  color: black;
+  left: 210px;
+  top: 35px;
+  font-weight: bold;
+}
+
+.blackbox{
+  position: absolute;
+  width: 60px; 
+  height: 20px; 
+  background-color: black;
+  left: 107px;
+  top: -1px;
+  border: 1px solid white;  
+}
+.blackbox1{
+  position: absolute;
+  width: 60px; 
+  height: 20px; 
+  background-color: black;
+  left: 107px;
+  top: 1px;  
+  border: 1px solid white  
+}
+
+.blackboxtext{
+  color: yellow;
+  font-size: small;
+  text-align: center;
+  top: 1px;
+}
+
+.blackboxtext1{
+  color: yellow;
+  font-size: small;
+  text-align: center;
+  top: 1px;
+}
+
+.text3{
+  position: absolute;
+  text-align: center;
+  left: 41%;
+  font-size: 30px;
+  top: 8px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white;
+}
+
+.text4{
+  position: absolute;
+  text-align: center;
+  left: 40.5%;
+  font-size: 15px;
+  top: 78px;
+  font-weight: bolder;
+}
+
+.commontext3{
+  position: absolute;
+  font-size: small;
+  color: black;
+  left: 900px;
+  top: 10px;
+  font-weight: bold;
+}
+
+.commontext4{
+  position: absolute;
+  font-size: small;
+  color: black;
+  left: 900px;
+  top: 35px;
+  font-weight: bold;
+}
+
+.blackbox2{
+  position: absolute;
+  width: 60px; 
+  height: 20px; 
+  background-color: black;
+  left: 100px;
+  top: 1px;
+  border: 1px solid white;  
+}
+.blackbox3{
+  position: absolute;
+  width: 60px; 
+  height: 20px; 
+  background-color: black;
+  left: 100px;
+  top: 2px;  
+  border: 1px solid white  
+}
+
+.button1{
+  position: absolute;
+  top: 63px;
+  left: 1265px;
+  width: 120px;
+  height: 35px;
+  background-color: #e0e0e0;
+  font-weight: bolder;
+}
+
+.button2{
+  position: absolute;
+  top: 63px;
+  left: 1140px;
+  width: 120px;
+  height: 35px;
+  background-color: #e0e0e0;
+  font-weight: bolder;
+}
+
+.button3{
+  position: absolute;
+  top: 63px;
+  left: 1015px;
+  width: 120px;
+  height: 35px;
+  background-color: #e0e0e0;
+  font-weight: bolder;
+}
+
+.blackbox4 {
+  position: absolute;
+  width: 150px; 
+  height: 50px;
+  background-color: black;
+  border: 2px solid white; 
+  left: 1085px;
+  top: 11px;
+  color: yellow;
+  font-size: larger;
+  text-align: center;
+}
+
+.current-date{
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  left: 1250px;
+  top: 16px;
+}
+
+/* .nav-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px double white;
+  position: relative;
+}
+
+.nav-item-header {
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background-color: #a09fa4;
+  width: 100%;
+  text-align: center;
+  padding: 1px;
+  top: -155px;
+} */
+
+.text5{
+  position: relative;
+  font-size: 8px;
+  top: 33px;
+  left: -7px;
+}
+
+.blackboxtextsmall{
+  color: yellow;
+  font-size: 9px;
+  text-align: center;
+  top: 1px;
+}
+.blackbox5{
+  position: absolute;
+  width: 30px; 
+  height: 10px; 
+  background-color: black;
+  top: 20px;
+  left: 15px;
+}
+
+.blackbox6{
+  position: absolute;
+  width: 30px; 
+  height: 10px; 
+  background-color: black;
+  top: 20px;
+  left: 85px;
+}
+
+.blackbox7{
+  position: absolute;
+  width: 30px; 
+  height: 10px; 
+  background-color: black;
+  top: 20px;
+  left: 155px;
+}
+
+.blackbox8{
+  position: absolute;
+  width: 30px; 
+  height: 10px; 
+  background-color: black;
+  top: 48px;
+  left: 15px;
+}
+
+.blackbox9{
+  position: absolute;
+  width: 30px; 
+  height: 10px; 
+  background-color: black;
+  top: 48px;
+  left: 85px;
+}
+
+.blackbox10{
+  position: absolute;
+  width: 30px; 
+  height: 10px; 
+  background-color: black;
+  top: 48px;
+  left: 155px;
+}
+
+.text6{
+  position: absolute;
+  top: -6px;
+  left: 27%;
+  font-size: 8px;
+  font-weight: bolder;
+}
+
+.blackbox11{
+  position: absolute;
+  width: 18px;
+  height: 9px;
+  background-color: black;
+  top: 10px;
+  left: 3px;
+}
+
+.blackboxtextsmall2{
+  position: absolute;
+  color: yellow;
+  font-size: 9px;
+  text-align: center;
+  top: -7px;
+  left: 2px;
+}
+
+.blackbox12{
+  position: absolute;
+    width: 49px;
+    height: 13px;
+    background-color: black;
+    top: 52px;
+    left: 2px;
+    border: 1px solid white;
+}
+
+.text7{
+  position: relative;
+  font-size: 8px;
+  top: 33px;
+  left: 80px;
+}
+
+.blackbox13{
+  position: absolute;
+    width: 52px;
+    height: 13px;
+    background-color: black;
+    top: 52px;
+    left: 84px;
+    border: 1px solid white;
+}
+
+.blackbox14{
+  position: relative;
+    width: 52px;
+    height: 13px;
+    background-color: black;
+    top: 51px;
+    left: 190px;
+    border: 1px solid white;
+}
+
+.navbarbottom {
+  position: absolute;
+  width: 1400px;
+  height: 350px;
+  display: flex;
+  background-color: #c0c0c0;
+  border: 5px double white;
+  left: 5px;
+}
+
+.block1{
+  position: relative;
+  width: 350px;
+  border: 5px double white;
+}
+.block2{
+  position: relative;
+  width: 350px;
+  border: 5px double white;
+}
+.block3{
+  position: relative;
+  width: 350px;
+  border: 5px double white;
+}
+.block4{
+  position: relative;
+  width: 350px;
+  border: 5px double white;
+}
+
+.block1title{
+  position: relative;
+  background-color: #a09fa4;
+  top: 6px;
+  text-align: center;
+  color: black;
+}
+
+.block2title{
+  position: relative;
+  background-color: #a09fa4;
+  top: 6px;
+  text-align: center;
+  color: black;
+}
+
+.block3title{
+  position: relative;
+  background-color: #a09fa4;
+  top: 6px;
+  text-align: center;
+  color: black;
+}
+
+.block4title{
+  position: relative;
+  background-color: #a09fa4;
+  top: 6px;
+  text-align: center;
+  color: black;
+}
+
+.block1text{
+  position: relative;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 18px;
+  display: flex;
+  text-align: right;
+  padding-left: 15px;
+  justify-content: flex-end;
+  left: -44px;
+}
+
+.blackbox15{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 105px;
+  height: 23px;
+  background-color: black;
+  margin-left: 10px;
+  border: 2px solid white;
+  left: 10px;
+}
+
+.blackboxtext2{
+  color: yellow;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.block2text{
+  position: relative;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 18px;
+  display: flex;
+  text-align: right;
+  padding-left: 15px;
+  justify-content: flex-end;
+  left: -44px;
+}
+
+.block3text{
+  position: relative;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 18px;
+  display: flex;
+  text-align: right;
+  padding-left: 15px;
+  justify-content: flex-end;
+  left: -44px;
+}
+
+.block3textexception{
+  position: relative;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 18px;
+  display: flex;
+  text-align: right;
+  padding-left: 15px;
+  justify-content:right;
+  left: -44px;
+}
+.greencircle{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(21, 247, 21); 
+  position: relative;
+  margin-left: 10px;
+}
+
+.block4text{
+  position: relative;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 18px;
+  display: flex;
+  text-align: right;
+  padding-left: 15px;
+  justify-content: flex-end;
+  left: -44px;
+}
+
+.greybox{
+    width: 1397px;
+    height: 35px;
+    background-color: #a09fa5;
+    border: 2px solid grey;
+    left: -350px;
+    top: -250px;
+}
+
+.greyboxtext{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.blackbox16{
+  /* position: absolute; */
+    width: 49px;
+    height: 13px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.text8{
+  color: black;
+  font-weight: bold;
+  font-size: 8px;
+  padding-bottom: 2px;
+}
+
+.thinstrip{
+  width: 5px;
+  height: 25px;
+  background-color:#737373;
+}
+
+.dummybox{
+  width: 1px;
+  height: 1px;
+  background-color: #484848;
+}
+
+.fillertext1{
+  position: absolute;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  left: -74px;
+  top: -16px;
+  width: 28px;
+  font-size: 5px;
+}
+
+.fillertext2{
+  /* position: absolute; */
+  position: relative;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  left: -90px;
+  top: -40px;
+  width: 62px;
+  font-size: 8px;
+}
+
+.fillertext3{
+  /* position: absolute; */
+  position: relative;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    left: -100px;
+    top: 19px;
+    width: 40px;
+    font-size: 8px;
+}
+
+.fillertext4{
+  position: relative;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    left: -81px;
+    top: 55px;
+    width: 40px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.fillertext5{
+  position: relative;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    left: -80px;
+    top: 89px;
+    width: 40px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.redtie1{
+  width: 24px;
+  height: auto;
+}
+
+.greentie1{
+  width: 24px;
+  height: auto;
+  rotate: 90deg;
+}
+
+.syringe1{
+  position: absolute;
+  left: 32%;
+  top: -30%;
+  width: 20px;
+  height: auto;
+}
+
+.syringe1inv{
+  position: absolute;
+    left: 19%;
+    top: 91%;
+    width: 30px;
+    height: auto;
+}
+
+.syringe2{
+  position: absolute;
+  left: -9px;
+  top: 2px;
+  width: 10px;
+  height: auto;
+}
+.syringe2inv{
+  position: absolute;
+  left: -9px;
+  top: 20px;
+  width: 10px;
+  height: auto;
+  mix-blend-mode: saturation;
+}
