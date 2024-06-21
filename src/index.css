@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
 }
+body{
+  margin: 0;
+  font-family: "Inter", sans-serif;
+
+}
+button, input, select, textarea {
+  font-family: "Inter", sans-serif;
+}
 .react-flow__pane {
-  background-color: #c0c0c0;
+  background-color: #f4f4f4;
 }
 .text-updater-node {
   height: 30px;
@@ -26,7 +35,7 @@
 }
 .navbar{
   background-color: #979494;
-  width: 1400px;
+  width: 100%;
   height: 100px;
   top: 0%;
   position: 'absolute';
@@ -45,20 +54,32 @@
   position: absolute;
   top: 55px;
   left: 10px;
-  width: 120px;
-  height: 35px;
+
   background-color: #e0e0e0;
   font-weight: bolder;
+  background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 8px 16px;
 }
 
 .logon-button{
   position: absolute;
   top: 55px;
   left: 140px;
-  width: 120px;
-  height: 35px;
+
   background-color: #e0e0e0;
   font-weight: bolder;
+  background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 8px 16px;
 }
 .input-container {
   width: 100%;
@@ -380,7 +401,6 @@
 }
 
 .text6{
-  position: absolute;
   top: -6px;
   left: 27%;
   font-size: 8px;
@@ -388,21 +408,21 @@
 }
 
 .blackbox11{
-  position: absolute;
+
   width: 18px;
   height: 9px;
   background-color: black;
-  top: 10px;
-  left: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
 
 .blackboxtextsmall2{
-  position: absolute;
-  color: yellow;
-  font-size: 9px;
+  color: #e0e070;
+  font-size: 7px;
   text-align: center;
-  top: -7px;
-  left: 2px;
+  font-weight: 500;
 }
 
 .blackbox12{
@@ -444,7 +464,7 @@
 
 .navbarbottom {
   position: absolute;
-  width: 1400px;
+  width: 100%;
   height: 350px;
   display: flex;
   background-color: #c0c0c0;
@@ -595,19 +615,23 @@
 }
 
 .greybox{
-    width: 1397px;
-    height: 35px;
-    background-color: #a09fa5;
-    border: 2px solid grey;
-    left: -350px;
-    top: -250px;
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #f7f7f7;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .greyboxtext{
-  color: black;
+
   font-size: 30px;
   font-weight: bold;
   text-align: justify;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: justify;
+  display: flex;
+  align-items: center;
 }
 
 .blackbox16{

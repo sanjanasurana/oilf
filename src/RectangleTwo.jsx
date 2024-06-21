@@ -3,19 +3,21 @@ import { Handle } from 'react-flow-renderer';
 
 function Rectangle2() {
   const buttonStyle = {
-    width: 24,
-    height: 24,
+    width: 28,
+    height: 28,
     borderRadius: '50%',
-    display: 'inline-block',
+    display: 'inline-flex',
     margin: '4px',
     textAlign: 'center',
-    lineHeight: '24px',
     color: 'black',
     fontSize: '16px',
-    backgroundColor: '#e0e0e0',
-    boxShadow: '0 6px 12px rgba(0, 0, 0, 0.5)',
-    border:'1px solid black',
+    backgroundColor: 'rgb(232 232 232)',
     position: 'relative',
+    gap: '1px',
+    lineHeight: '1',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
   };
 
   const containerStyle = {
@@ -23,38 +25,45 @@ function Rectangle2() {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    width: 273,
-    height: 117,
-    backgroundColor: '#eaeaea',
+    width: 287,
+    height: 124,
+    backgroundColor: '#fff',
     position: 'relative',
-    border: '1px solid black',
+    border: '0.5px solid #ddd',
+    borderRadius: '8px',
   };
 
   const numberStyleTop = {
     position: 'absolute',
-    top: '-24px',
-    left: '50%',
-    transform: 'translateX(-50%)',
-    fontSize: '10px',
-    backgroundColor: '#a09fa4',
-    width: '34px',
+    top: '-30px',
+    width: 'calc(100% + 8px)',
+    left: -4,
+    fontSize: '8px',
     height: '18px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRight: '0.5px solid #ddd',
+    borderBottom: '0.5px solid #ddd',
   };
 
   const numberStyleBottom = {
     position: 'absolute',
-    bottom: '-24px', 
-    left: '50%',
-    transform: 'translateX(-50%)',
-    fontSize: '10px', 
-    backgroundColor: '#a09fa4',
-    width: '34px',
+    bottom: '-30px', 
+    width: 'calc(100% + 8px)',
+    left: -4,
+    fontSize: '8px', 
     height: '18px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRight: '0.5px solid #ddd',
+    borderTop: '0.5px solid #ddd',
   };
 
   return (
     <div style={containerStyle}>
-      <div style={{ display: 'flex', marginBottom: '10px', position: 'relative' }}>
+      <div style={{ display: 'flex', position: 'relative' }}>
         <div style={{ ...buttonStyle }}>
           <div style={numberStyleTop}>{16}</div>
           <div className='text6'>8B</div>
@@ -91,7 +100,7 @@ function Rectangle2() {
           <div className='blackbox11'><div className='blackboxtextsmall2'>124</div></div>
         </div>
         <div style={{ ...buttonStyle }}>
-          <div style={numberStyleTop}>{2}</div>
+          <div style={{...numberStyleTop, borderRight: "none"}}>{2}</div>
           <div className='text6'>1B</div>
           <div className='blackbox11'><div className='blackboxtextsmall2'>126</div></div>
         </div>
@@ -133,7 +142,7 @@ function Rectangle2() {
           <div className='blackbox11'><div className='blackboxtextsmall2'>126</div></div>
         </div>
         <div style={{ ...buttonStyle }}>
-          <div style={numberStyleBottom}>{1}</div>
+          <div style={{...numberStyleBottom, borderRight: "none"}}>{1}</div>
           <div className='text6'>1A</div>
           <div className='blackbox11'><div className='blackboxtextsmall2'>126</div></div>
         </div>

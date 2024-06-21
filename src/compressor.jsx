@@ -144,7 +144,7 @@ function Flow() {
   );
 
   return (
-    <div style={{ width: '1400px', height: '550px'}}>
+    <div style={{ width: '100%', height: '550px'}}>
       <div className='navbar'>
         <div id="current-time" className='current-time'>{currentTime.toLocaleTimeString()}</div>
         <div>
